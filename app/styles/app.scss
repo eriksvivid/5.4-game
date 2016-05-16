@@ -1,0 +1,67 @@
+
+// Bootstrap Variables
+$icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
+
+// Import Bootstrap
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+.title {
+  text-align: center;
+}
+
+.display {
+  height: 39px;
+  margin-top: 41px;
+
+}
+
+.display h1 {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.combat-log {
+  height: 400px;
+}
+
+.player-log-text {
+  height: 196px;
+  margin-top: 15px;
+
+}
+
+.enemy-log-text {
+  margin-top: 15px;
+  height: 270px;
+}
+
+.btn-container {
+  vertical-align: bottom;
+}
+
+.player-atk-btn {
+  padding: 0;
+}
+
+.progress-bar {
+  background-color: rgba(0, 100, 250, 1);
+}
